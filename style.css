@@ -103,7 +103,7 @@
 }
 
 /* New Task */
-.task-label[for="new-task"] {
+.add-tasks .todo-title {
   display: block;
   margin: 0 0 20px;
 }
@@ -152,7 +152,7 @@
 }
 
 /* Completed */
-.tasks-list #completed-tasks .task-label {
+.tasks-list#completed-tasks .task-label {
   text-decoration: line-through;
   color: #888;
 }
