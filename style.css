@@ -5,30 +5,30 @@
   font-family: Lato, sans-serif;
 }
 
-.start-details {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.start-details__img {
+.header__img {
   width: 100%;
 }
 
-.start-details .more-inf {
-  font-family: fantasy, cursive;
+.header__link {
+  font-family: "fantasy", cursive;
 }
 
 @media (max-width:768px) {
 
-  .start-details {
+  .header {
     text-align: center;
   }
 
 }
 
-.todo-block {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-tasks__wrapper {
   display: flex;
 }
 
@@ -74,8 +74,7 @@
 }
 
 /* Heading */
-.todo-title,
-.task-label[for="new-task"] {
+.todo-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,7 +102,7 @@
 }
 
 /* New Task */
-.add-tasks .todo-title {
+.add-tasks__title {
   display: block;
   margin: 0 0 20px;
 }

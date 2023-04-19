@@ -9,24 +9,24 @@
     <link rel="stylesheet" href="style.css" media="screen">
   </head>
   <body class="page">
-    <header class="start-details">
-      <img class="start-details__img" src="./eisenhower-matrix.jpg" alt="The eisenhower matrix">
+    <header class="header">
+      <img class="header__img" src="./eisenhower-matrix.jpg" alt="The eisenhower matrix">
       <a
-        class="more-inf"
+        class="header__link"
         href="https://goal-life.com/page/method/matrix-eisenhower"
         >Want more details?</a
       >
     </header>
-    <main class="todo-block">
+    <main class="main">
       <section class="add-tasks" id="add-tasks">
-        <h3 class="todo-title">Add Item</h3>
-        <div class="task-row-wrapper">
-          <input id="new-task" class="task-input task" type="text">
+        <h3 class="add-tasks__title todo-title">Add Item</h3>
+        <div class="add-tasks__wrapper">
+          <input class="task-input task" id="new-task" type="text">
           <button class="task-button">Add</button>
         </div>
       </section>
-      <section class="todo">
-        <h3 class="todo-title">Todo</h3>
+      <section class="todo-block">
+        <h3 class="todo-block__title todo-title">Todo</h3>
         <ul class="tasks-list" id="incomplete-tasks">
           <li class="task-item">
             <input class="task-input" type="checkbox">
@@ -49,7 +49,7 @@
         </ul>
       </section>
       <section class="completed-task">
-        <h3 class="todo-title">Completed</h3>
+        <h3 class="completed-task__title todo-title">Completed</h3>
         <ul class="tasks-list" id="completed-tasks">
           <li class="task-item">
             <input class="task-input" type="checkbox" checked>
